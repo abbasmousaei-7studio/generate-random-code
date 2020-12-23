@@ -1,5 +1,7 @@
+<?php
+
 //GENERATE LINK CODE
-function generate_string($strength = 21)
+function generate_string($strength = 18)
 {
     $input = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $input_length = strlen($input);
@@ -13,7 +15,7 @@ function generate_string($strength = 21)
 }
 
 //GENERATE LINK CODE
-function generate_number($numlength = 21)
+function generate_number($numlength = 18)
 {
     $input = '123456789';
     $input_length = strlen($input);
