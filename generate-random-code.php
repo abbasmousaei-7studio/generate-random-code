@@ -1,5 +1,9 @@
 <?php
 
+// Author: Abbas Mousaei
+// Email: Abbasmousaei.7studio@gmail.com
+// Company: https://www.7studio.ir
+
 //GENERATE LINK CODE
 function generate_string($strength = 18)
 {
